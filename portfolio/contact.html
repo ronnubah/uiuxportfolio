@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Contact Ronald Nubah for UI/UX portfolio feedback, design collaborations, and opportunities."
+    />
+    <title>Contact | Ronald Nubah</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=40" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Ronald Nubah home">Ronald Nubah</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="work.html">Work</a>
+        <a href="about.html">About</a>
+        <a aria-current="page" href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact-form-section" aria-labelledby="contact-title">
+        <div class="contact-form-copy">
+          <h1 id="contact-title">Let’s connect</h1>
+          <p class="contact-intro">Fill out the form, and I will reach out in a timely manner.</p>
+        </div>
+
+        <form class="contact-form" action="mailto:ronnubah@gmail.com" method="post" enctype="text/plain">
+          <fieldset>
+            <legend>Name</legend>
+            <div class="name-grid">
+              <label>
+                <span>First Name <em>(required)</em></span>
+                <input type="text" name="first-name" autocomplete="given-name" required />
+              </label>
+              <label>
+                <span>Last Name <em>(required)</em></span>
+                <input type="text" name="last-name" autocomplete="family-name" required />
+              </label>
+            </div>
+          </fieldset>
+
+          <label>
+            <span>Email <em>(required)</em></span>
+            <input type="email" name="email" autocomplete="email" required />
+          </label>
+
+          <label>
+            <span>Message <em>(required)</em></span>
+            <textarea name="message" rows="7" required></textarea>
+          </label>
+
+          <button class="form-submit" type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Ronald Nubah</p>
+      <p>UI/UX Portfolio</p>
+    </footer>
+
+    <script src="script.js?v=26"></script>
+  </body>
+</html>
