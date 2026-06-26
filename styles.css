@@ -121,8 +121,7 @@ h3 {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
-  gap: 64px;
+  grid-template-columns: minmax(0, 1fr);
   align-items: center;
   min-height: calc(100vh - 76px);
   padding: 64px 7vw 72px;
