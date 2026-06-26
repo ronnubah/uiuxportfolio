@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Spectate animation by Ronald Nubah."
+    />
+    <title>Spectate Animation | Ronald Nubah</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=40" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Ronald Nubah home">Ronald Nubah</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a aria-current="page" href="work.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero animation-page-hero" aria-labelledby="animation-title">
+        <h1 id="animation-title">Spectate</h1>
+        <p>An assignment where I animated for a made up "company" in June 2025 created with Adobe After Effects and Adobe Illustrator.</p>
+      </section>
+
+      <section class="section animation-section" aria-label="Spectate animation video">
+        <video class="animation-video" controls preload="metadata">
+          <source src="assets/videos/spectate-animation.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="animation-actions">
+          <a class="button secondary" href="work.html">Back to Work</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Ronald Nubah</p>
+      <p>UI/UX Portfolio</p>
+    </footer>
+
+    <script src="script.js?v=26"></script>
+  </body>
+</html>
