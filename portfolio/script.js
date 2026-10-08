@@ -7,7 +7,7 @@ const projects = [
     accent: "#2b1d1a",
     monogram: "P",
     image: "assets/images/podly.png",
-    link: "https://www.figma.com/design/5urj0Zn0OshkcnxefVQzrv/Team-Ramsey-Designs?node-id=1-3&t=6AbRysWwhbsekrVX-1",
+    link: "https://www.figma.com/proto/5urj0Zn0OshkcnxefVQzrv/Team-Ramsey-Designs?node-id=1085-7747&p=f&t=uEj2moeDoUosxOxX-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=1085%3A7716",
     processLink: "podly-process.html",
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     accent: "#183454",
     monogram: "US",
     image: "assets/images/uscis-card-cover.png",
-    link: "https://www.figma.com/design/zAbAaQ7oVY7mE3z3dEwhAX/USCIS-Portal---Prototyping?node-id=17-1000&t=nosgoo9JMAwnY35l-1",
+    link: "https://www.figma.com/proto/zAbAaQ7oVY7mE3z3dEwhAX/USCIS-Portal---Prototyping?node-id=792-4104&p=f&viewport=292%2C757%2C0.03&t=B6IwZWycab6quqbW-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=792%3A4104&page-id=17%3A1000",
     processLink: "uscis-process.html",
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     accent: "#167d8f",
     monogram: "PH",
     image: "assets/images/phase.png",
-    link: "https://www.figma.com/design/zyTcm3DY9pk2UqGmXU99bS/Phase?node-id=0-1&t=VjGkB3YOY57jQsPX-1",
+    link: "https://www.figma.com/proto/zyTcm3DY9pk2UqGmXU99bS/Phase?node-id=273-560&p=f&viewport=271%2C358%2C0.07&t=Uf9mZuEHVgksuU1s-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=273%3A560&show-proto-sidebar=1&page-id=0%3A1",
     processLink: "phase-process.html",
   },
   {
