@@ -49,7 +49,7 @@ const projects = [
     accent: "#2563EB",
     monogram: "QC",
     image: "assets/images/quick-cuisine.png",
-    link: "https://www.figma.com/design/j1cZf0Y5yx7t0ZsPo18wfy/Final-Project?node-id=103-2061&t=RPEJnoMU15lceaqi-1",
+    link: "https://www.figma.com/proto/j1cZf0Y5yx7t0ZsPo18wfy/Final-Project?node-id=144-1633&p=f&viewport=77%2C302%2C0.34&t=N42Xnld2LrVnOzrW-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=144%3A1633&page-id=103%3A2061",
     homePreview: false,
   },
 ];
